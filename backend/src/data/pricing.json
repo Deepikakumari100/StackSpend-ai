@@ -1,0 +1,17 @@
+{
+  "chatgpt": {
+    "plus": 20,
+    "team": 30,
+    "enterprise": 60
+  },
+  "cursor": {
+    "pro": 20,
+    "business": 40,
+    "enterprise": 75
+  },
+  "claude": {
+    "pro": 20,
+    "team": 30,
+    "max": 100
+  }
+}

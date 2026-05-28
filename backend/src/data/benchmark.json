@@ -1,0 +1,5 @@
+{
+  "smallTeamThreshold": 5,
+  "lowSpendThreshold": 250,
+  "enterpriseThreshold": 300
+}

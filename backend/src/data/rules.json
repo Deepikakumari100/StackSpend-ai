@@ -1,0 +1,32 @@
+{
+  "chatgpt": [
+    {
+      "plan": "team",
+      "condition": "seats <= 2",
+      "recommendation": "plus",
+      "reason": "Collaboration features are underutilized for a small team size."
+    },
+    {
+      "plan": "enterprise",
+      "condition": "!enterpriseUsage",
+      "recommendation": "team",
+      "reason": "Enterprise tier is too expensive without enterprise usage."
+    }
+  ],
+  "cursor": [
+    {
+      "plan": "business",
+      "condition": "seats < 5",
+      "recommendation": "pro",
+      "reason": "Business tier is overkill for a small technical team."
+    }
+  ],
+  "claude": [
+    {
+      "plan": "max",
+      "condition": "monthlySpend < 250",
+      "recommendation": "pro",
+      "reason": "Max plan is not justified by the current spend level."
+    }
+  ]
+}
