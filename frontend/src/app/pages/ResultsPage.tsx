@@ -273,7 +273,8 @@ export function ResultsPage() {
               </h3>
 
               <p className="text-zinc-400">
-                Your report was downloaded and emailed to:
+                  Your PDF report has been downloaded and an email summary has been sent to your inbox.
+
               </p>
 
               <p className="mt-2 text-lg text-white">
